@@ -1,0 +1,25 @@
+/*main.css*/
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto; /* 공백을 이용해서 가운데 표시 */
+}
+
+#header {
+  display: flex;
+  justify-content: space-evenly; /* 주축을 기준으로 위치 정하기, 시작 가운데 끝 */
+}
+
+#main {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.box {
+  padding: 100px 150px;
+}
