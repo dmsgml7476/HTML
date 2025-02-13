@@ -1,0 +1,47 @@
+#loginWrap {
+  border: 1px solid lightgray;
+  width: 400px;
+  border-radius: 7px;
+}
+
+.login-box {
+  padding: 15px;
+}
+
+.login-head {
+  text-align: center;
+}
+
+.login-main {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+  padding: 17px 0;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #03c75a;
+  color: #fff;
+}
+
+.login-foot {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-foot a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.find-pw {
+  margin: 0 7px;
+  padding: 0 7px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* css 선택자 : html 태그에 스타일을 적용하려면 어떤 태그에 적용할것인지 선택해야한다.
+종류 : 태그이름, ID, 클래스, name, 가상선택자
+    ex) input[name==aa] 인풋 태그들 중에서 name이 aa인 태그 선택해라.
+*/

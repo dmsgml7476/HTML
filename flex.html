@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX</title>
+    <style>
+      .orange {
+        background: orange;
+      }
+      .pink {
+        background: pink;
+      }
+      .gray {
+        background: gray;
+      }
+      .red {
+        background: red;
+      }
+
+      #con {
+        display: flex;
+        /* 주축 방향 일 때 justify-, 교차축 방향일때 align-items */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+
+        gap: 10px;
+        width: 600px;
+        height: 300px;
+        border: 3px solid;
+        align-items: center; /* start, end, center, space- */
+        justify-content: space-evenly; /* start, end, center */
+      }
+
+      .item {
+        /* width: calc(100% / 4); */
+        /* 연산자 앞 뒤로 반드시 뛰어쓰기 */
+
+        /* flex-grow: 1; */
+
+        width: 45%;
+      }
+
+      .orange {
+        /* align-self: start; 교차축 방향으로만 배치, 주축은 부모쪽에서만 배치 가능 */
+        /* flex: 1; */
+        flex-grow: 1;
+        /* order: 3; */
+      }
+
+      .pink {
+        flex-grow: 4;
+      }
+
+      .gray {
+        flex-grow: 2;
+        /* oreder: 1; */
+      }
+
+      .red {
+        flex-grow: 1;
+        /* order: 2; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="con">
+      <!-- flex container -->
+
+      <div class="item orange">뽀로로</div>
+      <!--flex item-->
+      <b class="item pink">루피</b>
+      <i class="item gray">포비</i>
+      <div class="item red">뚜뚜</div>
+    </div>
+
+    <!-- flex : 정렬과 배치, 기본적으로 한 줄 정렬이다. -->
+  </body>
+</html>
