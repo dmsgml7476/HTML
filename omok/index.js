@@ -20,6 +20,7 @@ for (var i = 0; i < 14; i++) {
     tr.appendChild(td);
   }
 }
+///dfsg
 
 let game = new Array(14);
 for (let i = 0; i < game.length; i++) {
